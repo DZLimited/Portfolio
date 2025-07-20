@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Include/CV.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+        emailjs.init("YOUR_PUBLIC_KEY"); // e.g. 'sDjaB0xL9lLSXYzqF'
+        })();
+    </script>
+
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <!-- ✅ Fixed ID: Changed 'menuicon' to 'menu-icon' -->
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#service">Service</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Daniyal Zafar</h1>
+      <h3>And I'm a <span class="multipletext"></span></h3>
+      <p> A passionate and motivated React Native developer with a strong foundation in mobile app development.
+ Completed a MERN Stack internship, gaining experience in full-stack development, and now focused on building
+ cross-platform mobile apps using React Native. Skilled in JavaScript, React Native, and familiar with the complete
+ development cycle — from planning and design to coding, testing, and deployment..</p>
+      <div class="social-media">
+        <a href="https://github.com/DZLimited"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://www.linkedin.com/in/daniyal-zafar-14252b260"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="./Assests/DaniyalZafar.pdf" download class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="./Images/dani2.png" alt="">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="aboutimg">
+      <img src="./Images/dani1.png" alt="">
+    </div>
+    <div class="aboutcontent">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Software Developer!</h3>
+      <p>I am a dedicated and detail-oriented developer with a passion for creating intuitive and efficient mobile applications.
+         My background in full-stack development with the MERN stack has given me a solid understanding of both frontend and
+          backend technologies. Now, I specialize in building responsive and scalable mobile apps using React Native.
+         I enjoy turning ideas into real-world applications, with a focus on performance, user experience, and clean code..</p>
+      <a href="./Assests/DaniyalZafar.pdf" target="_blank" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img class="pimg" src="./Images/portfolio1.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Calculator App</h4>
+          <p>React Native</p>
+          <a href="https://github.com/DZLimited/Calculator-App.git"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img class="pimg" src="./Images/portfolio2.jpg" alt="">
+        <div class="portfolio-layer">
+         <h4>PDF Viewer App</h4>
+          <p>React Native</p>
+          <a href="https://github.com/DZLimited/LitePDF.git"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div> <div class="portfolio-box">
+        <img class="pimg" src="./Images/portfolio3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Blog App</h4>
+          <p>MERN Stack</p>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div> <div class="portfolio-box">
+        <img class="pimg" src="./Images/portfolio5.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>HTML, CSS, JS</p>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>   
+     </div>
+  </section>
+
+  <!-- Services -->
+  <section class="service" id="service">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bxl-android'></i>
+        <h3>App Development</h3>
+        <p>React Native Developer. Proficient in JavaScript and VS Code...</p>
+        <a href="https://github.com/DZLimited" class="btn">Read More</a>
+      </div>
+       <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+        <p>MERN Stack Development & Clean, modern frontend websites with responsive and optimized layouts using HTML/CSS/JS.</p>
+        <a href="https://github.com/DZLimited" class="btn">Read More</a>
+      </div>
+      <!-- <div class="services-box">
+        <i class='bx bxs-paint'></i>
+        <h3>Graphic Design</h3>
+        <p>Creative design solutions for brands, UI mockups, and digital graphics.</p>
+        <a href="#" class="btn">Read More</a>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form id="contact-form">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="tel" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by DANI | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="./Include/CV.js"></script>
+
+</body>
+</html>
