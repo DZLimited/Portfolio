@@ -3,7 +3,7 @@
 This is my personal portfolio website built using **HTML**, **CSS**, and **JavaScript**. It showcases my projects, skills, and services as a **React Native Developer** and **MERN Stack Developer**.
 
 ## 🚀 Live Demo
-🔗 [View Live Portfolio](https://github.com/DZLimited/Daniyal_portfolio.git)
+🔗 [View Live Portfolio]([https://daniyal0109-portfolio.netlify.app])
 
 ## 📁 Features
 
@@ -16,7 +16,7 @@ This is my personal portfolio website built using **HTML**, **CSS**, and **JavaS
 
 ## 📬 Contact Me
 
-- 📧 Email: dzofficialbusiness@gmail.com  
+- 📧 Email: m.daniyal0109@gmail.com  
 - 🌐 LinkedIn: [www.linkedin.com/in/daniyal-zafar-14252b260](#)
 - 💻 GitHub: [DZLimited](https://github.com/DZLimited)
 
